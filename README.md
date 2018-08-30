@@ -1,6 +1,6 @@
-# Result Tracker
+# Disease Normalization with ShARe/CLEF 2013
 
-Utility for tracking experimental progress over time.
+Experimental progress over time.
 
-| Date | Changes | Score | Compare | Commit |
-| ---- | ------- | ----- | ------- | ------ |
+| Date | Changes | Accuracy | Acc. reach. | Compare | Commit |
+| ---- | ------- | -------- | ----------- | ------- | ------ |
