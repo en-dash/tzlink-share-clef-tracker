@@ -18,11 +18,14 @@ trec_eval_fn = ${rootpath}/runs/trec_eva/${timestamp}.{}.tsv
 
 [candidates]
 generator = SGramCosine(.5, 10)
+	PhraseVecFixedSet(10, "mean", "emb_stem")
+	Hyperonym
+	Abbreviation
 oracle = {"train": 3, "predict": 0}
 
 [emb]
 sample_size = 50
-context_size = 0
+context_size = 500
 embedding_dim = 50
 embedding_voc = 10000
 vectorizer_cache = True
